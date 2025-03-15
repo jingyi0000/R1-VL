@@ -21,6 +21,8 @@
 
 <sup>1</sup>[Nanyang Technological University](https://www.ntu.edu.sg/), <sup>2</sup>[Tsinghua University](https://www.tsinghua.edu.cn/en/)
 
+**(The paper, code, and models will be released soon.)**
+
 </h5>
 </div>
 
