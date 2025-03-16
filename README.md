@@ -37,3 +37,20 @@ Step-wise Reasoning Accuracy Reward (StepRAR) and Step-wise Reasoning Validity R
 StepRAR rewards the reasoning paths that contain necessary intermediate reasoning steps via a soft key-step matching technique, while StepRAR rewards reasoning paths that follow a well-structured and logically consistent reasoning process through a reasoning completeness and logic evaluation strategy.
 With the proposed StepGRPO, we introduce R1-VL, a series of MLLMs with outstanding capabilities in step-by-step reasoning.
 
+## Main results
+We conduct experiments with two powerful baseline models, including [Qwen2-VL-2B](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) and [Qwen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct). The **Main Results** comparing the R1-VL models with other state-of-the-art models across several widely-adopted benchmarks are shown in the figure below. All the experiments are conducted on 4 H100-80GB GPUs.
+
+<div align=center>
+<img width="650" alt="image" src="docs/main_results.png">
+</div>
+
+
+## Quantitative Results
+
+<div align=center>
+<img width="700" alt="image" src="docs/qualitative_results.png">
+</div>
+
+
+
+
