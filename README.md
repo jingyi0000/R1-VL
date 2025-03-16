@@ -41,14 +41,14 @@ With the proposed StepGRPO, we introduce R1-VL, a series of MLLMs with outstandi
 We conduct experiments with two powerful baseline models, including [Qwen2-VL-2B](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) and [Qwen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct). The **Main Results** comparing the R1-VL models with other state-of-the-art models across several widely-adopted benchmarks are shown in the figure below. All the experiments are conducted on 4 H100-80GB GPUs.
 
 <div align=center>
-<img width="650" alt="image" src="docs/main_results.png">
+<img width="800" alt="image" src="docs/main_results.png">
 </div>
 
 
 ## Quantitative Results
 
 <div align=center>
-<img width="700" alt="image" src="docs/qualitative_results.png">
+<img width="800" alt="image" src="docs/qualitative_results.png">
 </div>
 
 
