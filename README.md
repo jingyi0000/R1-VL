@@ -6,7 +6,7 @@
 
 <h5 align="center"> 
 
-<a href='#'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://arxiv.org/abs/2503.12937'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 <a href='#'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
 <a href='#'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'>
 
@@ -26,7 +26,7 @@
 </div>
 
 ## News
-- The paper, code, and models will be released soon.
+- [x] **`March 17, 2025.`** We release our paper on [arxiv](https://arxiv.org/abs/2503.12937).
 
 ## Abstract
 Recent studies generally enhance MLLMs' reasoning capabilities via supervised fine-tuning on high-quality chain-of-thought reasoning data, which often leads models to merely imitate successful reasoning paths without understanding what the wrong reasoning paths are.
