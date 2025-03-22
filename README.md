@@ -42,6 +42,21 @@ With the proposed StepGRPO, we introduce R1-VL, a series of MLLMs with outstandi
 <img width="800" alt="image" src="docs/overview.png">
 </div>
 
+## Evaluation
+We use [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) to evaluate our models on different benchmarks. Here, we provide the evaluation instructions.
+
+First, install VLMEvalKit according to the [official instructions](https://github.com/open-compass/VLMEvalKit/blob/main/docs/en/Quickstart.md).
+
+Then, replace necessary files as in [Mulberry]([https://github.com/HJYao00/Mulberry](https://github.com/HJYao00/Mulberry?tab=readme-ov-file#evaluation)).
+
+Finally, perform evaluation via following command:
+```bash
+python run.py --data MathVista_MINI --model R1-VL-7B --verbose
+```
+For more evaluation options, please refer to [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
+
+
+
 ## Main results
 We conduct experiments with two powerful baseline models, including [Qwen2-VL-2B](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) and [Qwen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct). The **Main Results** comparing the R1-VL models with other state-of-the-art models across several widely-adopted benchmarks are shown in the figure below. All the experiments are conducted on 4 H100-80GB GPUs.
 
