@@ -26,7 +26,7 @@
 </div>
 
 ## News
-- [x] **`April 16, 2025.`** We release the training details for SFT warm-up stage. The code and training detials for RL stage will be released soon!
+- [x] **`April 16, 2025.`** We release the training details for [SFT warm-up](https://github.com/jingyi0000/R1-VL?tab=readme-ov-file#sft-warm-up) stage. The code and training detials for RL stage will be released soon!
 - [x] **`March 22, 2025.`** We release our models [R1-VL-7B](https://huggingface.co/jingyiZ00/R1-VL-7B) and [R1-VL-2B](https://huggingface.co/jingyiZ00/R1-VL-2B).
 - [x] **`March 17, 2025.`** We release our paper on [arxiv](https://arxiv.org/abs/2503.12937).
 
