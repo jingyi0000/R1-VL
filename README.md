@@ -26,6 +26,7 @@
 </div>
 
 ## News
+- [x] **`April 16, 2025.`** We release the training details for SFT warm-up stage. The code and training detials for RL stage will be released soon!
 - [x] **`March 22, 2025.`** We release our models [R1-VL-7B](https://huggingface.co/jingyiZ00/R1-VL-7B) and [R1-VL-2B](https://huggingface.co/jingyiZ00/R1-VL-2B).
 - [x] **`March 17, 2025.`** We release our paper on [arxiv](https://arxiv.org/abs/2503.12937).
 
@@ -55,6 +56,44 @@ python run.py --data MathVista_MINI --model R1-VL-7B --verbose
 ```
 For more evaluation options, please refer to [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
 
+## Training
+
+### SFT warm-up
+
+#### Data Preparation
+Download [Mulberry-260K](https://huggingface.co/datasets/HuanjinYao/Mulberry-SFT) and remove the reflective reasoning data.
+#### Training
+We use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to perform SFT warm-up:
+
+First, install LLaMA-Factory according to the [official_instruction](https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#installation).
+
+Then, refer [here](https://github.com/hiyouga/LLaMA-Factory/blob/main/data/README.md) and update the following customized dataset into `dataset_info.json` in LLaMA-Factory.
+
+```bash
+"r1_vl_sft": {
+    "file_name": "./mulberry_sft_wo_reflective_data.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+```
+
+Finally, use the following command to train the models.
+```bash
+llamafactory-cli train examples/train_full/r1_vl_qwen2b_full_sft.yaml
+```
+Please refer to [Mulberry](https://github.com/HJYao00/Mulberry/tree/main/training) for the training parameters used in the SFT warm-up stage.
+
+### RL with StepGRPO
+Coming soon!
 
 
 ## Main results
