@@ -135,7 +135,7 @@ def accuracy_reward(completions, solution, key_steps, **kwargs):
                 
                 # Extract answer from content if it has think/answer tags
                 # content_match = re.search(r'<answer>(.*?)</answer>', content)
-                content_match = re.search(r'### The final answer is:\s*\n?(.*)', content) #here!!
+                content_match = re.search(r'### The final answer is:\s*\n?(.*)', content)
                 student_answer = content_match.group(1).strip() if content_match else content.strip()
                 
                 # Compare the extracted answers
