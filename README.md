@@ -67,7 +67,7 @@ We use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to perform SFT 
 
 First, install LLaMA-Factory according to the [official_instruction](https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#installation).
 
-Then, refer [here](https://github.com/hiyouga/LLaMA-Factory/blob/main/data/README.md) and update the following customized dataset into `dataset_info.json` in LLaMA-Factory.
+Then, refer to [here](https://github.com/hiyouga/LLaMA-Factory/blob/main/data/README.md) and update the following customized dataset into `dataset_info.json` in LLaMA-Factory.
 
 ```bash
 "r1_vl_sft": {
