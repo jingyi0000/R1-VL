@@ -26,7 +26,8 @@
 </div>
 
 ## News
-- [x] **`April 16, 2025.`** We release the training details for [SFT warm-up](https://github.com/jingyi0000/R1-VL?tab=readme-ov-file#sft-warm-up) stage. The code and training details for RL stage will be released soon!
+- [x] **`April 30, 2025.`** We release the training code for [RL](https://github.com/jingyi0000/R1-VL?tab=readme-ov-file#rl-with-stepgrpo) stage.
+- [x] **`April 16, 2025.`** We release the training details for [SFT warm-up](https://github.com/jingyi0000/R1-VL?tab=readme-ov-file#sft-warm-up) stage.
 - [x] **`March 22, 2025.`** We release our models [R1-VL-7B](https://huggingface.co/jingyiZ00/R1-VL-7B) and [R1-VL-2B](https://huggingface.co/jingyiZ00/R1-VL-2B).
 - [x] **`March 17, 2025.`** We release our paper on [arxiv](https://arxiv.org/abs/2503.12937).
 
@@ -93,8 +94,29 @@ llamafactory-cli train examples/train_full/qwen2vl_2b_full_sft.yaml
 Please refer to [this folder](https://github.com/jingyi0000/R1-VL/tree/main/sft) for the training parameters used in the SFT warm-up stage.
 
 ### RL with StepGRPO
-Coming soon!
 
+#### Data Preparation
+Coming soon..
+
+#### Training
+
+Our StepGRPO implementation is based on [R1-V](https://github.com/Deep-Agent/R1-V):
+
+First, setup the environment.
+```bash
+bash setup.sh
+```
+
+Then, modify the SFT model path and dataset path in the following files: [run_grpo_2b_vllm.sh](https://github.com/jingyi0000/R1-VL/blob/main/src/r1-vl/run_grpo_2b_vllm.sh) and [run_grpo_7b.sh](https://github.com/jingyi0000/R1-VL/blob/main/src/r1-vl/run_grpo_7b.sh).
+
+Finally, perform RL using the following commands.
+
+```bash
+#qwen2-vl 2b
+bash src/r1-vl/run_grpo_2b_vllm.sh
+#qwen2-vl 7b
+bash src/r1-vl/run_grpo_7b.sh
+```
 
 ## Main results
 We conduct experiments with two powerful baseline models, including [Qwen2-VL-2B](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) and [Qwen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct). The **Main Results** comparing the R1-VL models with other state-of-the-art models across several widely-adopted benchmarks are shown in the figure below. All the experiments are conducted on 4 H100-80GB GPUs.
