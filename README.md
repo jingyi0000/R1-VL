@@ -110,6 +110,14 @@ We conduct experiments with two powerful baseline models, including [Qwen2-VL-2B
 <img width="800" alt="image" src="docs/qualitative_results.png">
 </div>
 
+## Acknowledgment
+
+Our work is built on the following codebases, and we are deeply grateful for their contributions.
+
+- [R1-V](https://github.com/Deep-Agent/R1-V)
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
+
 
 ## Citation
 We appreciate your citations if you find our paper related and useful to your research!
