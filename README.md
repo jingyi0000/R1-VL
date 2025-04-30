@@ -48,7 +48,7 @@ We use [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) to evaluate our 
 
 First, install VLMEvalKit according to the [official instructions](https://github.com/open-compass/VLMEvalKit/blob/main/docs/en/Quickstart.md).
 
-Then, replace necessary files as in [Mulberry](https://github.com/HJYao00/Mulberry?tab=readme-ov-file#evaluation).
+Then, replace the necessary files with those in [this folder](https://github.com/jingyi0000/R1-VL/tree/main/eval).
 
 Finally, perform evaluation via following command:
 ```bash
