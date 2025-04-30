@@ -8,7 +8,7 @@
 
 <a href='https://arxiv.org/abs/2503.12937'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 <a href='https://huggingface.co/collections/jingyiZ00/r1-vl-67d8e2cbcbe40158b0a45e74'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
-<a href='#'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'>
+<a href='https://huggingface.co/datasets/jingyiZ00/R1-VL-10K'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'>
 
 [Jingyi Zhang]()<sup>1</sup>,
 [Jiaxing Huang](https://jxhuang0508.github.io/)<sup>1</sup>,
