@@ -88,9 +88,9 @@ Then, refer to [here](https://github.com/hiyouga/LLaMA-Factory/blob/main/data/RE
 
 Finally, use the following command to train the models.
 ```bash
-llamafactory-cli train examples/train_full/r1_vl_qwen2b_full_sft.yaml
+llamafactory-cli train examples/train_full/qwen2vl_2b_full_sft.yaml
 ```
-Please refer to [Mulberry](https://github.com/HJYao00/Mulberry/tree/main/training) for the training parameters used in the SFT warm-up stage.
+Please refer to [this folder](https://github.com/jingyi0000/R1-VL/tree/main/sft) for the training parameters used in the SFT warm-up stage.
 
 ### RL with StepGRPO
 Coming soon!
