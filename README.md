@@ -38,7 +38,7 @@ To this end, we design Step-wise Group Relative Policy Optimization (StepGRPO), 
 Specifically, StepGRPO introduces two novel rule-based reasoning rewards:
 Step-wise Reasoning Accuracy Reward (StepRAR) and Step-wise Reasoning Validity Reward (StepRVR).
 StepRAR rewards the reasoning paths that contain necessary intermediate reasoning steps via a soft key-step matching technique, while StepRAR rewards reasoning paths that follow a well-structured and logically consistent reasoning process through a reasoning completeness and logic evaluation strategy.
-With the proposed StepGRPO, we introduce R1-VL, a series of MLLMs with outstanding capabilities in step-by-step reasoning.
+With our proposed StepGRPO, we introduce R1-VL, a series of MLLMs with outstanding capabilities in step-by-step reasoning.
 
 <div align=center>
 <img width="800" alt="image" src="docs/overview.png">
