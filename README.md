@@ -26,6 +26,8 @@
 </div>
 
 ## News
+- [x] **`June 25, 2025.`** **R1-VL** is accepted by ICCV 2025! 🎉
+- [x] **`May 22, 2025.`** Our new work **R1-ShareVL** is out! It achieves SOTA on six benchmarks by exploring and sharing diverse reasoning trajectories over an expanded question space, effectively mitigating sparse reward and advantage vanishing issues. Check out our [paper](https://arxiv.org/pdf/2505.16673?).
 - [x] **`April 30, 2025.`** We release the training code for [RL](https://github.com/jingyi0000/R1-VL?tab=readme-ov-file#rl-with-stepgrpo) stage.
 - [x] **`April 16, 2025.`** We release the training details for [SFT warm-up](https://github.com/jingyi0000/R1-VL?tab=readme-ov-file#sft-warm-up) stage.
 - [x] **`March 22, 2025.`** We release our models [R1-VL-7B](https://huggingface.co/jingyiZ00/R1-VL-7B) and [R1-VL-2B](https://huggingface.co/jingyiZ00/R1-VL-2B).
