@@ -98,7 +98,8 @@ Please refer to [this folder](https://github.com/jingyi0000/R1-VL/tree/main/sft)
 ### RL with StepGRPO
 
 #### Data Preparation
-Coming soon..
+
+[Data](https://huggingface.co/datasets/jingyiZ00/R1-VL-10K)
 
 #### Training
 
