@@ -99,7 +99,7 @@ Please refer to [this folder](https://github.com/jingyi0000/R1-VL/tree/main/sft)
 
 #### Data Preparation
 
-[Data](https://huggingface.co/datasets/jingyiZ00/R1-VL-10K)
+You may download the dataset from [link](https://huggingface.co/datasets/jingyiZ00/R1-VL-10K), or use the provided [prompt](https://github.com/jingyi0000/R1-VL/tree/main/prompts) to extract keysteps from your own data.
 
 #### Training
 
