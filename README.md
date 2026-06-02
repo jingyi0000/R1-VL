@@ -147,11 +147,13 @@ Our work is built on the following codebases, and we are deeply grateful for the
 ## Citation
 We appreciate your citations if you find our paper related and useful to your research!
 ```
-@article{zhang2025r1,
-  title={R1-VL: Learning to Reason with Multimodal Large Language Models via Step-wise Group Relative Policy Optimization},
-  author={Zhang, Jingyi and Huang, Jiaxing and Yao, Huanjin and Liu, Shunyu and Zhang, Xikun and Lu, Shijian and Tao, Dacheng},
-  journal={arXiv preprint arXiv:2503.12937},
-  year={2025}
+@InProceedings{Zhang_2025_ICCV,
+    author    = {Zhang, Jingyi and Huang, Jiaxing and Yao, Huanjin and Liu, Shunyu and Zhang, Xikun and Lu, Shijian and Tao, Dacheng},
+    title     = {R1-VL: Learning to Reason with Multimodal Large Language Models via Step-wise Group Relative Policy Optimization},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {1859-1869}
 }
 ```
 
